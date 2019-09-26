@@ -6,10 +6,10 @@ def line(array)
   else
     current_line = "The line is currently"
     array.each.with_index(1) { |name, index|
-      current_line << name
+      current_line << "#{index}"
       
       
-      puts "#{index}. #{name}"
+      puts " #{name}"
       
     }
   end
