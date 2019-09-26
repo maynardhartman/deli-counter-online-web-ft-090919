@@ -14,7 +14,7 @@ end
 def take_a_number(array, name)
   array << name
   index = array.find_index(name)
-  puts "Welcome, #{name}. You are number #{++index} in line."
+  puts "Welcome, #{name}. You are number #{index + 1} in line."
 end
 
 def now_serving(array)
